@@ -2,31 +2,79 @@ body{
     margin:0;
     background-image: url("../images/bg-intro-desktop.png");
     text-align: center;
+    background-color: rgb(255,121,120);
+    font-family: 'Poppins', sans-serif;
 }
 .learning{
     width: 50%;
     position: absolute;
     top:25%;
+    line-height: 2;
+}
+.learning h3{
+    color:white;
+    font-size: 1.8rem;
+}
+.learning p{
+    color:white;
+    font-size: 0.8rem;
+    display: inline;
 }
 #try{
     border:1px solid black;
-    width:300px;
+    width:540px;
     height:35px;
     position: relative;
-    left:700px;
+    left:670px;
     top:50px;
+    padding:10px;
+    color:white;
+    background-color: rgb(93,84,163);
 }
 form
 {
-    border:1px solid black;
-    width:50%;
+    border:2px solid black;
+    width:38.3%;
     position: absolute;
     left:50%;
-    top:100px;
-    height: 250px;
+    top:150px;
+    height: 50%;
+    padding: 20px;
+    line-height: 2;
+    background-color: white;
+    border-radius: 4%;
+}
+.myButton {
+	background-color:#44c767;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	font-weight:bold;
+	padding:9px 76px;
+	text-decoration:none;
+    text-shadow:0px 0px 0px #2f6627;
+    margin-top: 10px;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
 .boxSize{
     display: block;
     margin:15px;
-    padding:5px;
+    padding:7px;
+    width: 90%;
+    height:10px;
+}
+#terms{
+    font-size:0.8rem;
+}
+#bojica{
+    color:rgb(221,220,228);
 }
